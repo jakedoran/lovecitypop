@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../font/HelveticaNeueLTStd-CnO.eot");
+  src: url("../font/HelveticaNeueLTStd-CnO.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNeueLTStd-CnO.woff") format("woff"), url("../font/HelveticaNeueLTStd-CnO.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+
+
+
+.player {
+  overflow: hidden; }
+
+.now-playing {
+  min-width: 200px;
+  display: block;
+  margin: 10% auto; }
+  .now-playing h1 {
+    min-width: 100px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif; font-style: italic;
+    font-size: 2em;
+    color: #1f1f1f;
+    font-weight: normal; }
+  .now-playing h2 {
+    min-width: 100px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif; font-style: italic;
+    font-size: 1.6em;
+    color: #1f1f1f;
+    font-weight: normal; }
+
+.up-next {
+  min-width: 200px;
+ }
+  .up-next h3 {
+    min-width: 100px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif; font-style: italic;
+    font-size: 1.2em;
+    color: #1f1f1f;
+    font-weight: normal; }
+
+#video-placeholder {
+  width: 950px;
+  height: 520px; }
+
+.embed-controls {
+  text-align: center;
+  display: block;
+  margin: 10% auto; }
+  .embed-controls i {
+    font-size: 32px;
+    padding: 20px;
+    cursor: pointer; }
+
+.play {
+  color: #005fbb; }
+
+.pause {
+  color: #91e0a5; }
+
+.prev {
+  color: #fd4ed7; }
+
+.next {
+  color: #f4a54a; }
+
+@media screen and (max-width: 991px) {
+  .now-playing {
+    min-width: 200px;
+    display: block;
+    margin: auto auto; }
+    .now-playing h1 {
+      min-width: 100px;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif; font-style: italic;
+      
+      font-size: 2em;
+      color: #1f1f1f;
+      font-weight: normal; }
+    .now-playing h2 {
+      min-width: 100px;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif; font-style: italic;
+      font-size: 1.6em;
+      color: #1f1f1f;
+      font-weight: normal; }
+  
+  .up-next {
+    min-width: 200px;
+   }
+    .up-next h3 {
+      min-width: 100px;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif; font-style: italic;
+      font-size: 1.2em;
+      color: #1f1f1f;
+      font-weight: normal; }
+  
+  #video-placeholder {
+    width: 950px;
+    height: 520px; }
+  
+  .embed-controls {
+    text-align: center;
+    display: block;
+    /* margin: 10% auto;  */
+  }
+    .embed-controls i {
+      font-size: 32px;
+      padding: 20px;
+      cursor: pointer; }
+      .content {
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 0px;
+        
+      }
+      .image {
+        display: none;
+        width: 160px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
